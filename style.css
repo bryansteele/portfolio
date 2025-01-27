@@ -271,7 +271,7 @@ section {
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .about-details-container {
@@ -307,6 +307,12 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
+}
+
+.section__text__p3 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .section__pic-container {
