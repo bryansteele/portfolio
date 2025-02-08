@@ -8,8 +8,8 @@
 }
 
 body {
-  background: rgb(5,0,9);
-  background: linear-gradient(90deg, rgba(5,0,9,1) 0%, rgba(98,11,17,1) 8%, rgba(253,29,29,1) 21%, rgba(252,176,69,1) 59%);
+  background: rgb(64,0,0);
+  background: linear-gradient(88deg, rgba(64,0,0,1) 0%, rgba(253,63,38,1) 26%, rgba(252,176,69,1) 100%);
   font-family: 'Poppins', sans-serif;
 }
 
@@ -27,7 +27,7 @@ p {
 .logo,
 footer p {
   color: #000000; 
-  background-image: linear-gradient(90deg, #000000 0%, #555555 92%); 
+  background-image: linear-gradient(90deg, #000000 5%, #555555 96%); 
   background-clip: text; 
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent; 
