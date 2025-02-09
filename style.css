@@ -17,6 +17,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* .wrapper {
+  max-inline-size: 1200px;
+  margin-inline: auto;
+} */
+
 p {
   color: #555555; 
 }
