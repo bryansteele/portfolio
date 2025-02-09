@@ -81,6 +81,10 @@ a:hover {
   cursor: default;
 }
 
+nav .logo {
+  text-shadow: 3px 3px 4px red, 0 0 2em black, 0 0 0.2em black;
+}
+
 /* HAMBURGER MENU  */
 
 #hamburger-nav {
