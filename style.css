@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,11 +17,6 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
-/* .wrapper {
-  max-inline-size: 1200px;
-  margin-inline: auto;
-} */
 
 p {
   color: #555555; 
@@ -225,6 +221,12 @@ section {
   gap: 1rem;
 }
 
+#socials-container img:hover,
+#social-container img:focus-visible {
+  box-shadow: 10px 10px 20px;
+  border-radius: 100%;
+}
+
 /* ICONS */
 
 .icon {
@@ -250,7 +252,7 @@ section {
 }
 
 .btn-color-1,
-.btn-color-2: {
+.btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
